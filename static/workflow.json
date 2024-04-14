@@ -1,0 +1,288 @@
+{
+  "29": {
+    "inputs": {
+      "add_noise": "enable",
+      "noise_seed": 445092732030081,
+      "steps": 30,
+      "cfg": 7,
+      "sampler_name": "dpmpp_2m_sde_gpu",
+      "scheduler": "karras",
+      "start_at_step": 0,
+      "end_at_step": 10000,
+      "return_with_leftover_noise": "disable",
+      "model": [
+        "70",
+        0
+      ],
+      "positive": [
+        "31",
+        0
+      ],
+      "negative": [
+        "32",
+        0
+      ],
+      "latent_image": [
+        "38",
+        0
+      ]
+    },
+    "class_type": "KSamplerAdvanced",
+    "_meta": {
+      "title": "KSampler (Advanced)"
+    }
+  },
+  "30": {
+    "inputs": {
+      "ckpt_name": "revanimatedV2Rebirth.z5W3.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {
+      "title": "Load Checkpoint"
+    }
+  },
+  "31": {
+    "inputs": {
+      "text": [
+        "42",
+        0
+      ],
+      "clip": [
+        "69",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  },
+  "32": {
+    "inputs": {
+      "text": "",
+      "clip": [
+        "69",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  },
+  "38": {
+    "inputs": {
+      "width": 512,
+      "height": 768,
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "Empty Latent Image"
+    }
+  },
+  "39": {
+    "inputs": {
+      "samples": [
+        "29",
+        0
+      ],
+      "vae": [
+        "30",
+        2
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE Decode"
+    }
+  },
+  "41": {
+    "inputs": {
+      "images": [
+        "39",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "42": {
+    "inputs": {
+      "action": "append",
+      "tidy_tags": "yes",
+      "text_a": [
+        "66",
+        0
+      ],
+      "text_b": "",
+      "text_c": "",
+      "result": ""
+    },
+    "class_type": "StringFunction|pysssss",
+    "_meta": {
+      "title": "String Function 🐍"
+    }
+  },
+  "45": {
+    "inputs": {
+      "text": [
+        "42",
+        0
+      ]
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "46": {
+    "inputs": {
+      "lora_name": "hatsunemiku1000006.h9wB.safetensors",
+      "strength_model": 0.7000000000000001,
+      "strength_clip": 0.7000000000000001,
+      "model": [
+        "30",
+        0
+      ],
+      "clip": [
+        "30",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "Load LoRA"
+    }
+  },
+  "66": {
+    "inputs": {
+      "from_translate": "zh",
+      "to_translate": "en",
+      "text": ""
+    },
+    "class_type": "ArgosTranslateTextNode",
+    "_meta": {
+      "title": "Argos Translate Text Node"
+    }
+  },
+  "69": {
+    "inputs": {
+      "stop_at_clip_layer": -2,
+      "clip": [
+        "78",
+        1
+      ]
+    },
+    "class_type": "CLIPSetLastLayer",
+    "_meta": {
+      "title": "CLIP Set Last Layer"
+    }
+  },
+  "70": {
+    "inputs": {
+      "weight": 0.7000000000000001,
+      "weight_faceidv2": 0.7000000000000001,
+      "weight_type": "linear",
+      "combine_embeds": "concat",
+      "start_at": 0,
+      "end_at": 1,
+      "embeds_scaling": "V only",
+      "model": [
+        "78",
+        0
+      ],
+      "ipadapter": [
+        "76",
+        0
+      ],
+      "image": [
+        "77",
+        0
+      ],
+      "clip_vision": [
+        "74",
+        0
+      ],
+      "insightface": [
+        "75",
+        0
+      ]
+    },
+    "class_type": "IPAdapterFaceID",
+    "_meta": {
+      "title": "IPAdapter FaceID"
+    }
+  },
+  "74": {
+    "inputs": {
+      "clip_name": "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+    },
+    "class_type": "CLIPVisionLoader",
+    "_meta": {
+      "title": "Load CLIP Vision"
+    }
+  },
+  "75": {
+    "inputs": {
+      "provider": "CUDA"
+    },
+    "class_type": "IPAdapterInsightFaceLoader",
+    "_meta": {
+      "title": "IPAdapter InsightFace Loader"
+    }
+  },
+  "76": {
+    "inputs": {
+      "ipadapter_file": "ip-adapter-faceid-plusv2_sd15.bin"
+    },
+    "class_type": "IPAdapterModelLoader",
+    "_meta": {
+      "title": "IPAdapter Model Loader"
+    }
+  },
+  "77": {
+    "inputs": {
+      "image": "202212161671156587731394.jpeg",
+      "upload": "image"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "78": {
+    "inputs": {
+      "lora_name": "ipadapter/ip-adapter-faceid-plusv2_sd15_lora.safetensors",
+      "strength_model": 0.7000000000000001,
+      "strength_clip": 0.7000000000000001,
+      "model": [
+        "46",
+        0
+      ],
+      "clip": [
+        "46",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "Load LoRA"
+    }
+  },
+  "80": {
+    "inputs": {
+      "filename_prefix": "FaceStyle",
+      "images": [
+        "39",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  }
+}

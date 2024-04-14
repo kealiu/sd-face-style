@@ -1,0 +1,61 @@
+[{
+    "name": "武侠",
+    "model": "wuxia2.oxsP.safetensors",
+    "sample": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b0f807e4-8990-4f23-b32c-8a39ad11af55/original=true/00386-479497846-Best%20quality,masterpiece,ultra%20high%20res,1girl,beautiful_face,detailed%20skin,,gu,dragon,full%20body,,weapon,black%20hair,holding%20weapo.jpeg",
+    "positive": "Best quality,masterpiece,ultra high res,beautiful_face,detailed skin",
+    "negative": "NSFW, nake, embedding:ng_deepnegative_v1_75t, embedding:badhandv4 (worst quality:2), (low quality:2), (normal quality:2), lowres, bad anatomy, bad hands, normal quality, ((monochrome)), ((grayscale))"
+},{
+    "name": "油画",
+    "model": "bichuV0612.TltX.safetensors",
+    "sample": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9915af88-4648-4c18-916d-174957e06ecb/original=true/03833-226280166-1girl,Balcony,Coffee_Table,Coffee,bichu,oil_painting,masterpiece,best_quality,HDR.UHD.4K,8K,64K,,.jpeg",
+    "positive": "bichu,oil painting,masterpiece,best quality,HDR.UHD.4K,8K",
+    "negative": "NSFW, nake, worst quality,low quality,bad quality,lowres, embedding:ng_deepnegative_v1_75t, embedding:badhandv4"
+},{
+    "name": "神话",
+    "model": "hipoly3dcgV7Epoch.WBLB.safetensors",
+    "sample": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ff865f98-cacc-4e8d-05ad-6f7450205400/original=true/01700-20230409212120-3819982106-models_02_25D_AlstroemeriaMix-fp16.jpeg",
+    "positive": "Mysterious expression, magical effects like sparkles or energy, mystical background, rim lighting, side lighting, cinematic light, ultra high res, 8k uhd, film grain,best shadow, delicate, RAW, light particles, detailed skin texture, detailed cloth texture,  beautiful detailed face, intricate details, ultra detailed",
+    "negative": "NSFW, nake, embedding:EasyNegative, extra fingers,fewer fingers, facepaint, mole,worst quality,low quality,bad quality,lowres"
+},{
+    "name": "格林童话",
+    "model": "rapunzelCharacterv2.MPx5.safetensors",
+    "sample": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b963e391-c0ce-41fe-674d-038030bc9200/original=true/282445.jpeg",
+    "positive": "tangled rapunzel, cartoon fanart style, 4K, best quality, cinematic light, 2D, full body, (winter, ear muff, purple coat), snow, snowflakes",
+    "negative": "NSFW, nake, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, dress"
+},{
+    "name": "初音未来",
+    "model": "hatsunemiku1000006.h9wB.safetensors",
+    "sample": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/731a70b4-a2df-4640-ae23-e6555db58f00/original=true/00228-1200,%201600,%20[ANIME]_mixProV4_v4.jpeg",
+    "positive": "((masterpiece)) ((sfw)) (best_quality) (fisheye) (facing_viewer) (upper_body) (close-up:1.4) (blurry_background) (depth_of_field) (Hatsune Miku) (twintails) (medium_breasts) (skindentation) (thick_thighs) (blush) (light_smile) (smile) (blue_eyes:1.4) (detailed_eyes), best quality, masterpiece,ultra high res,beautiful_face",
+    "negative": "NSFW, nake, (worst quality, low quality:1.4), (extra_arms:1.3) (multiple_arms) (arms_up:1.3) (hands:1.4) (cross_necklace), embedding:EasyNegative, embedding:badhandv4"
+},{
+    "name": "中式服装",
+    "model": "newchinesestylesuit.XxqS.safetensors",
+    "sample": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5f83907c-4cbb-4ee0-9d11-53d9d7d4eb3e/original=true/30113-1334317574-masterpiece,%20best%20quality,1girl%20,%20looking%20at%20viewer,%20full%20body,%20simple%20background,.jpeg",
+    "positive": "masterpiece, best quality, ultra high res,beautiful_face, simple background,",
+    "negative": "NSFW, nake,embedding:EasyNegative,(worst quality, low quality:1.4), (((deformed))), blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, (extra_limb), (ugly), (poorly drawn hands), fused fingers, canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), wierd colors, blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, mutated eyes, cleavage, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, crown, hat, multiple hands, bad hands, bad anatomy, ugly, gallant, blurry, floating, multiple body, duplicate, extra fingers, extra limbs, mutation, deformed, disfigured, morbid, long body, asymmetric, poorly drawn face, cloned face, cloned head, asymmetric ears, asymmetric ear rings, floating hair, (long neck), cross eyed, blinking, winking, makeup, lipstick, eye liner, eyeliner, kitsch, bad art, bad taste, unnatural, staged, missing limb, missing arm, missing leg, floating limb, disconnected limb, extra limb, too many fingers, extra fingers, malformed limbs, malformed hands, poorly drawn hands, (mutated hands), (mutated fingers), mutilated hands, extra tail, missing tail,No tents,,chibi,loli"
+},{
+    "name": "3D",
+    "model": "3dmmV12.A3va.safetensors",
+    "sample": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f7753a3c-e979-4de4-8f28-045cfff63a59/original=true/tmppykbomt4.jpeg",
+    "positive": "masterpiece, best quality,3dmm style,3d,realistic, high-quality, 3D realistic works, ultra-high details, 4k, real skin materials,simple background, mj3d, ghibli style, san \\(mononoke hime\\)",
+    "negative": "NSFW, nake,embedding:badhandv4, paintings, sketches, (worst qualit:2), (low quality:2), (normal quality:2), lowers, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, (outdoor:1.6), manboobs, (backlight:1.2), double navel, muted arms, hused arms, neck lace, analog, analog effects, (sunglass:1.4), nipples, bad architecture, watermark, (mole:1.5), embedding:EasyNegative"
+},{
+    "name": "赛博",
+    "model": "cyberhanfuV1.XkvP.safetensors",
+    "sample": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/38eabecd-486b-4af4-a939-04b175c2e832/original=true/00221-3905897109.jpeg",
+    "positive": "cyberhanfu, cheongsam, chinese_clothes, cyberpunk city, dynamic pose, Headdress, hair ornament, high-tech city, full of machinery and futuristic element, futurism, technolog",
+    "negative": "NSFW, nake, embedding:EasyNegative,(low quality, worst quality:1.4), (lowres:1.1), greyscale, pixel art, blurry, monochrome,(text:1.8),(logo:1.8), (bad art, low detail, old), (bad nipples), bag fingers, grainy, low quality, (mutated hands and fingers:1.5),(multiple nipples),"
+},{
+    "name": "校园",
+    "model": "schoolRooftopV01.uNUb.safetensors",
+    "sample": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6313a891-d4a4-492e-9e65-5f1670a421fb/original=true/00408-1452731231.jpeg",
+    "positive": "school rooftop, school uniform, building, chain-link fence, wind lift, skirt tug,, masterpiece, best quality, highly detailed",
+    "negative": "NSFW, nake,embedding:EasyNegative, (worst quality, low quality:1.4), (bad art, low detail, old), (bad nipples), bag fingers, grainy, low quality, (mutated hands and fingers:1.5),(multiple nipples)"
+},{
+    "name": "汉服",
+    "model": "hanfutangV35.ffsb.safetensors",
+    "sample": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/696f5200-ac75-46fa-8be2-9d5931f7d3bd/original=true/00036-1331447668.jpeg",
+    "positive": "cityscape backdrop, dynamic composition, engaging pose, soft yet striking lighting, shallow depth of field, bokeh from city lights, sharp details, highly detailed, hyper-realistic, 50mm lens, naturally blurred background, hanfu, tang style outfits, upper shan, chest pleated skirt,  waistband, pibo",
+    "negative": "NSFW, nake,cartoon, anime, sketches,(worst quality, low quality), (deformed, distorted, disfigured, bad eyes), wrong nose, weird mouth, strange ears, bad anatomy, wrong anatomy, amputation, extra limb, missing limb, floating limbs, (bad teeth, mutated hands, wrong fingers:1.2), disconnected limbs, mutation, ugly, disgusting, embedding:badhandv4, embedding:EasyNegative"
+}]
